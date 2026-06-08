@@ -63,8 +63,8 @@ export const normalAchievements = [
     description: "Go Infinite.",
     checkRequirement: () => true,
     checkEvent: GAME_EVENT.BIG_CRUNCH_BEFORE,
-    get reward() { return `Start with ${formatInt(100)} antimatter.`; },
-    effect: 100
+    get reward() { return `Start with ${formatInt(1e6)} antimatter.`; },
+    effect: 1e6
   },
   {
     id: 22,
@@ -78,8 +78,8 @@ export const normalAchievements = [
     name: "The 9th Dimension is a lie",
     get description() { return `Have exactly ${formatInt(99)} 8th Antimatter Dimensions.`; },
     checkRequirement: () => AntimatterDimension(8).amount.eq(99),
-    get reward() { return `8th Antimatter Dimensions are ${formatPercents(0.1)} stronger.`; },
-    effect: 1.1
+    get reward() { return `8th Antimatter Dimensions are ${formatPercents(0.2)} stronger.`; },
+    effect: 1.2
   },
   {
     id: 24,
