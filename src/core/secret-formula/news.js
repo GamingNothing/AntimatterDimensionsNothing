@@ -14,7 +14,7 @@ function newsAnimSpd(seconds) {
 export const news = [
   {
     id: "a1",
-    text: "The cookie is a lie.",
+    text: "There is nothing.",
   },
   {
     id: "a2",
@@ -30,7 +30,7 @@ export const news = [
   },
   {
     id: "a5",
-    text: "Antimatter prices have drastically dropped due to newfound abundance."
+    text: "There's really nothing here."
   },
   {
     id: "a6",
@@ -38,7 +38,7 @@ export const news = [
   },
   {
     id: "a7",
-    text: "You made one antimatter! Whatever that means."
+    text: "You made one antimatter! That means nothing."
   },
   {
     id: "a8",
@@ -46,7 +46,7 @@ export const news = [
   },
   {
     id: "a9",
-    text: "None of this matters."
+    text: "None of this matters. All for nothing."
   },
   {
     id: "a10",

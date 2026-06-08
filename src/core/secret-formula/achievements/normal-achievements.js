@@ -3,19 +3,19 @@ import { DC } from "../../constants";
 export const normalAchievements = [
   {
     id: 11,
-    name: "You gotta start somewhere",
+    name: "That's literally NOTHING!",
     description: "Buy a 1st Antimatter Dimension.",
     checkEvent: GAME_EVENT.ACHIEVEMENT_EVENT_OTHER,
   },
   {
     id: 12,
-    name: "100 antimatter is a lot",
+    name: "100 antimatter is a lot, but still NOTHING.",
     description: "Buy a 2nd Antimatter Dimension.",
     checkEvent: GAME_EVENT.ACHIEVEMENT_EVENT_OTHER,
   },
   {
     id: 13,
-    name: "Half life 3 CONFIRMED",
+    name: "Half life 3 CONFIRMED(?)",
     description: "Buy a 3rd Antimatter Dimension.",
     checkEvent: GAME_EVENT.ACHIEVEMENT_EVENT_OTHER,
   },
